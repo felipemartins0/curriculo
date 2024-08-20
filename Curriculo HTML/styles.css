@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(44, 127, 204);
+    animation: fadeBackground 5s ease-in-out infinite alternate;
+    font-family: 'Quicksand';
+    
+}
+
+.titulo{
+    text-align: center;
+    color: #D9DCD6
+
+}
+@keyframes fadeBackground {
+    0% {
+        background-color: #16425B;
+    }
+    100% {
+        background-color: #2F6690;
+    }
+}
+
+.sobre-mim {
+    text-align: left;
+    color: #D9DCD6;
+}
+
+a {
+    color: #00a0dc; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #00b579; 
+    text-decoration:wavy;
+}
+
+.foto img{
+    text-align:center;
+    height: 300px;
+    width: 450px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.foto {
+    color: white;
+    text-align: center;
+}
+
+.conhecimentos {
+    text-align: left;
+    color: #D9DCD6;
+    width: auto;
+    padding: 20px;
+    
+}
